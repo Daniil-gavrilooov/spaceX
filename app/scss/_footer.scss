@@ -1,0 +1,41 @@
+.footer {
+    padding-bottom: 130px;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__social {
+        margin-top: 43px;
+        margin-bottom: 28px;
+        display: flex;
+        gap: 20px;  
+    }
+
+    &__social-list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__social-link {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 21px;
+        color: $grey;
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 20px 87px;
+        border: 2px solid $white;
+        border-radius: 6px;
+    }
+}
